@@ -37,8 +37,8 @@ export default function RshaMchta() {
                         إلى نفس ِك أو ًلا
                     </p>
                     <p className="font-bold">
-                       واليوم أنا هنا لأرافق ِ Ҏخطوة
-بخطوة في هذا الرجوع المبارك
+                        واليوم أنا هنا لأرافق ِ Ҏخطوة
+                        بخطوة في هذا الرجوع المبارك
                     </p>
                 </div>
                 <Image
@@ -46,7 +46,7 @@ export default function RshaMchta() {
                     alt="Portrait of a smiling woman wearing a mustard yellow sweater with long hair, standing with hands gently clasped"
                     width={250}
                     height={320}
-                    className="rounded-lg  object-cover w-40 sm:w-150 md:w-[350px]"
+                    className="rounded-lg  object-cover w-15 sm:w-44 md:w-[350px]"
                 />
             </div>
         </section>
