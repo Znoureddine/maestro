@@ -1,15 +1,46 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import localFont from 'next/font/local';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const kufam = localFont({
+  src: [
+    {
+      path: '../../public/fonts/Kufam/ArbFONTS-kufam-regular-webfont.otf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Kufam/ArbFONTS-Kufam Bold.otf',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Kufam/ArbFONTS-Kufam-Italic.ttf',
+      weight: '400',
+      style: 'italic',
+    },
+  ],
+  variable: '--font-kufam',
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const GESS = localFont({
+  src: [
+    {
+      path: '../../public/fonts/GE SS Unique/GE SS Unique Bold.otf',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/GE SS Unique/GE SS Unique Light.otf',
+      weight: '400',
+      style: 'normal',
+    },
+    
+  ],
+  variable: '--font-GESS',
 });
+
+
+
 
 export const metadata = {
   title: "Create Next App",
@@ -18,9 +49,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${kufam.variable} ${GESS.variable}`}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        
       >
         {children}
       </body>

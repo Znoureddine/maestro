@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@theme {
+  --font-kufam: var(--font-kufam);
+  --font-GESS: var(--font-GESS);
+  --color-brown: #4C2919;
+}
+.outline-white{
+   text-shadow: '-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white',
+}
+
