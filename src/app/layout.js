@@ -1,26 +1,6 @@
 import "./globals.css";
 import localFont from 'next/font/local';
 
-const kufam = localFont({
-  src: [
-    {
-      path: '../../public/fonts/Kufam/ArbFONTS-kufam-regular-webfont.otf',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../../public/fonts/Kufam/ArbFONTS-Kufam Bold.otf',
-      weight: '700',
-      style: 'normal',
-    },
-    {
-      path: '../../public/fonts/Kufam/ArbFONTS-Kufam-Italic.ttf',
-      weight: '400',
-      style: 'italic',
-    },
-  ],
-  variable: '--font-kufam',
-});
 
 const GESS = localFont({
   src: [
@@ -49,7 +29,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${kufam.variable} ${GESS.variable}`}>
+    <html lang="en" className={`${GESS.variable}`}>
+      <head>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Kufam:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
+      </head>
       <body
         
       >
