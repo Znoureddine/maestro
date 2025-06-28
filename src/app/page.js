@@ -92,18 +92,7 @@ export default function Home() {
         </div>
 
         {/* Compte à rebours */}
-        <div dir="ltr" className="flex justify-center mt-8">
-          <FlipClockCountdown to={new Date().getTime() + 24*200 * 3600 * 1000 + 5000}
-          labelStyle={{
-            color: '#664430',
-            
-          }} 
-          digitBlockStyle={{
-            color: '#EDCFA7',
-            backgroundColor : '#664430'
-          }}
-          />
-        </div>
+        
       </section>
       <section dir="rtl" className="bg-[#f7efe7] py-12 px-6">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
