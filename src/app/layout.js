@@ -29,7 +29,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${GESS.variable}`}>
+    <html lang="ar" className={`${GESS.variable}`}>
       <head>
         
         <link rel="preconnect" href="https://fonts.googleapis.com" />
