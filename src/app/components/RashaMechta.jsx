@@ -44,9 +44,9 @@ export default function RshaMchta() {
                 <Image
                     src="/img/racha.png"
                     alt="Portrait of a smiling woman wearing a mustard yellow sweater with long hair, standing with hands gently clasped"
-                    width={350}
+                    width={250}
                     height={320}
-                    className="rounded-lg  object-cover w-100 sm:w-150 md:w-[350px]"
+                    className="rounded-lg  object-cover w-40 sm:w-150 md:w-[350px]"
                 />
             </div>
         </section>
