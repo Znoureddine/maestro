@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function RshaMchta() {
     return (
-        <section dir="rtl" className="w-full mx-auto bg-[#FAF3EC]  shadow-md pt-12 font-kufam text-[#4B3222]">
+        <section dir="rtl" className="w-full mx-auto bg-[#FAF3EC]  shadow-md pt-12 font-kufam text-[#4B3222] px-4">
             <h2 className="text-2xl font-bold mb-6 text-center">من هي رشا مشتة ؟</h2>
             <p className="mb-6 leading-relaxed">
                 لايف كوتش جزائرية ومدربة متخصصة في التشافي بالعلاقات والوعي
@@ -23,7 +23,7 @@ export default function RshaMchta() {
                 .تستحقها
 
             </p>
-            <div className="flex flex-col md:flex-row md:gap-20 px-4 items-center text-right">
+            <div className="flex flex-col-reverse md:flex-row md:gap-20  items-center text-right">
                 <div>
                     <p className="mb-6 leading-relaxed" dir="rtl">
                         ألفت كتابين:
