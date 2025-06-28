@@ -101,7 +101,9 @@ export default function Home() {
           }} 
           digitBlockStyle={{
             color: '#EDCFA7',
-            backgroundColor : '#664430'
+            backgroundColor : '#664430',
+            width: '10vw', // adapte à l'écran
+            fontSize: '6vw'
           }}
           />
         </div>
