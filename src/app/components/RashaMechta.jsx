@@ -4,16 +4,16 @@ export default function RshaMchta() {
     return (
         <section dir="rtl" className="w-full mx-auto bg-[#FAF3EC]  shadow-md pt-12 font-kufam text-[#4B3222] px-4">
             <h2 className="text-2xl font-bold mb-6 text-center">من هي رشا مشتة ؟</h2>
-            <p className="mb-6 leading-relaxed">
+            <p className="mb-6 leading-relaxed px-4">
                 لايف كوتش جزائرية ومدربة متخصصة في التشافي بالعلاقات والوعي
                 والطاقة، صاحبة أسلوب دافئ وملامس للروح
             </p>
-            <p className="mb-6 leading-relaxed">
+            <p className="mb-6 leading-relaxed px-4">
                 لأكثر من  10سنوات، رافق ُ̫ مئات النساء في الجزائر وخارجها لتجاوز أوجاع
                 الطفولة والعلاقات السامة والتعلق المؤذي، ومساعدتهن على استعادة
                 .الأمان الداخلي والتوازن في العلاقات والمال والاهداف
             </p>
-            <p className="mb-6 leading-relaxed">
+            <p className="mb-6 leading-relaxed px-4">
 
                 أنا وزوجي أسسنا م ًعا مركز <span className="font-semibold">«فراشة مولبستيك سنتر»</span> — مركز متخ ّصص
                 في تنظيم الدورات والفعاليات الراقية التي تمزج الوعي بالطب الشمولي
