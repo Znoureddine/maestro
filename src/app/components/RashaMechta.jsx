@@ -23,7 +23,7 @@ export default function RshaMchta() {
                 .تستحقها
 
             </p>
-            <div className="flex flex-col-reverse md:flex-row md:gap-20 items-center text-right">
+            <div className="flex flex-col-reverse md:flex-row md:gap-20 px-2 items-center text-right">
                 <div>
                     <p className="mb-6 leading-relaxed" dir="rtl">
                         ألفت كتابين:
@@ -46,7 +46,7 @@ export default function RshaMchta() {
                     alt="Portrait of a smiling woman wearing a mustard yellow sweater with long hair, standing with hands gently clasped"
                     width={250}
                     height={320}
-                    className="rounded-lg  object-cover w-15 sm:w-44 md:w-[350px]"
+                    className="rounded-lg  object-cover w-35 sm:w-44 md:w-[350px]"
                 />
             </div>
         </section>
