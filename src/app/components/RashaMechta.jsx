@@ -46,7 +46,7 @@ export default function RshaMchta() {
                     alt="Portrait of a smiling woman wearing a mustard yellow sweater with long hair, standing with hands gently clasped"
                     width={350}
                     height={320}
-                    className="rounded-lg  object-cover"
+                    className="rounded-lg  object-cover w-100 sm:w-150 md:w-[350px]"
                 />
             </div>
         </section>
