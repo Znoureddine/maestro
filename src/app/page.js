@@ -94,7 +94,7 @@ export default function Home() {
         {/* Compte à rebours */}
         <div dir="ltr" className="flex justify-center mt-8 w-full overflow-hidden px-4 sm:px-8">
           <FlipClockCountdown to={new Date().getTime() + 24*10 * 3600 * 1000 + 5000}
-          className="w-full max-w-full scale-80 sm:scale-100"
+          className="w-full max-w-full scale-65 sm:scale-100"
           labelStyle={{
             color: '#664430',
             
