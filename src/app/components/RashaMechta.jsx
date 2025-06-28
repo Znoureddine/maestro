@@ -23,7 +23,7 @@ export default function RshaMchta() {
                 .تستحقها
 
             </p>
-            <div className="flex flex-row md:gap-20 items-center text-right">
+            <div className="flex flex-col-reverse md:flex-row md:gap-20 items-center text-right">
                 <div>
                     <p className="mb-6 leading-relaxed" dir="rtl">
                         ألفت كتابين:
