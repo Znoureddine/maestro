@@ -1,5 +1,17 @@
 import React from 'react';
 import Image from "next/image";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+const slides = [
+  { type: 'image', src: '/img/msg2.png', alt: 'Photo 1' },
+  { type: 'image', src: '/img/msg1.png', alt: 'Photo 2' },
+  { type: 'video', src: '/video/vid1.mp4' },
+  { type: 'video', src: '/video/vid2.mp4' },
+];
 const TestimonialComponent = () => {
     return (
         <div dir='rtl' className="font-kufam bg-[#FFF7E6] min-h-screen flex flex-col items-center py-12 px-4 sm:px-6 lg:px-8 text-[#3F2D20]">
@@ -41,7 +53,7 @@ const TestimonialComponent = () => {
                     />
                 </div>
 
-                {/* Right box (Arabic) */}
+
                 <div className=" overflow-y-auto text-[#453d31] text-xs sm:text-sm leading-relaxed font-light direction-rtl" dir="rtl">
                     <Image
                         src="/img/msg1.png"
@@ -52,7 +64,40 @@ const TestimonialComponent = () => {
                     />
                 </div>
             </div>
-
+            <div className="w-full max-w-5xl mx-auto">
+      <Swiper
+        modules={[Navigation, Pagination]}
+        navigation
+        pagination={{ clickable: true }}
+        spaceBetween={30}
+        slidesPerView={2}
+        breakpoints={{
+          0: { slidesPerView: 2 }, // mobile
+          768: { slidesPerView: 2 }, // tablet et plus
+        }}
+        className="rounded-xl"
+      >
+        {slides.map((item, index) => (
+          <SwiperSlide key={index} className="flex justify-center items-center">
+            {item.type === 'image' ? (
+              <img
+                src={item.src}
+                alt={item.alt}
+                className=" object-contain rounded-lg shadow-md"
+              />
+            ) : (
+              <video
+                controls
+                className=" object-contain rounded-lg shadow-md"
+              >
+                <source src={item.src} type="video/mp4" />
+                Votre navigateur ne supporte pas la lecture vidéo.
+              </video>
+            )}
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
             {/* Stars */}
             <div className="flex justify-center space-x-2 mt-10 mb-6">
                 <Image
