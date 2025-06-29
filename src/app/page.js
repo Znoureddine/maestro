@@ -29,7 +29,9 @@ export default function Home() {
         {/* Contenu texte */}
         
         
-          <div dir="rtl" className="absolute top-1/15 right-1/15 md:top-2/4 md:right-1/4 text-right z-10 max-w-4xl">
+          {
+            /*
+            <div dir="rtl" className="absolute top-1/15 right-1/15 md:top-2/4 md:right-1/4 text-right z-10 max-w-4xl">
           <h1 className=" outline-white text-3xl md:text-5xl font-GESS font-bold text-red-600 leading-snug"  style={{
     textShadow: `
       -3px -3px 0 white,
@@ -58,6 +60,9 @@ export default function Home() {
             ابدئي الآن
           </button>
         </div>
+            
+            */
+          }
           
       </div>
       {
