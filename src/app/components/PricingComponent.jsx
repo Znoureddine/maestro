@@ -33,9 +33,13 @@ const PricingComponent = () => {
       </p>
 
       {/* Offer note */}
-      <div className=" font-kufam bg-red-700 text-white rounded-full mt-4 px-6 py-2 text-center text-sm font-semibold max-w-md mx-auto">
-        هذا العرض الخاص ساري فقط للأوائل <br/> ومدة محدودة - سجلي الآن معنا
-      </div>
+      <a
+        href="https://wa.me/213558318841"
+        target="_blank"
+        rel="noopener noreferrer"
+        className=" block font-kufam bg-[#B24B42] text-white rounded-full mt-4 px-6 py-2 text-center text-sm font-semibold max-w-md mx-auto hover:bg-[#a34137] transition">
+        هذا العرض الخاص ساري فقط للأوائل <br /> ومدة محدودة - سجلي الآن معنا
+      </a>
 
       {/* Price options below */}
       <div className=" font-kufam flex justify-center mt-6 space-x-25 ">
@@ -48,15 +52,15 @@ const PricingComponent = () => {
         >
           15000 دج
           <span className="absolute top-1/2 right-1/10 transform -translate-x-1/2 -translate-y-1/2">
-            <svg 
-              className="w-10 h-10 text-[#B24B42]" 
-              fill="none" 
-              stroke="currentColor" 
-              strokeWidth="3" 
-              viewBox="0 0 24 24" 
-              xmlns="http://www.w3.org/2000/svg" 
+            <svg
+              className="w-10 h-10 text-[#B24B42]"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="3"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
-              >
+            >
               <line x1="3" y1="21" x2="21" y2="3" />
               <line x1="21" y1="21" x2="5" y2="3" />
             </svg>

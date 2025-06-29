@@ -18,9 +18,13 @@ const TestimonialComponent = () => {
             {/* Badge/Label on top */}
             <div className="relative inline-flex items-center justify-center">
                 {/* Bouton / Badge */}
-                <span className="bg-[#bf4623] text-white text-sm sm:text-base rounded-full px-6 py-2 font-bold">
+                <a
+                    href="https://wa.me/213558318841"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-[#bf4623] text-white text-sm sm:text-base rounded-full px-6 py-2 font-bold hover:bg-[#a34137] transition">
                     سجلي الآن
-                </span>
+                </a>
 
                 {/* Image en position absolue au-dessus */}
                 <div className="absolute -top-4 left-2 w-10 h-10">
@@ -123,20 +127,23 @@ const TestimonialComponent = () => {
 
 
             {/* CTA button */}
-            <button
-                className="mt-15 bg-[#bf4623] hover:bg-[#8a2e20] transition-colors duration-300 rounded-full px-8 py-3 text-white font-bold max-w-xs w-full sm:w-auto flex items-center justify-center gap-2"
+            <a
+                href="https://wa.me/213558318841"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" block text-center mt-15 bg-[#bf4623] hover:bg-[#8a2e20] transition-colors duration-300 rounded-full px-8 py-3 text-white font-bold max-w-xs w-full sm:w-auto flex items-center justify-center gap-2"
                 aria-label="سجل اليوم واستعدي لعلاقة لزمرية بدلا أو تنمية"
             >
                 سجلي اليوم واستعدي لعلاقة
 
                 ُتزهرك بدل أن ُتتعبك
-            </button>
+            </a>
 
             {/* Footer note */}
             <div className="flex items-center gap-2 mt-8">
 
                 <p className="text-[#c97415] font-extrabold text-lg text-right">
-                    من قلبي لقلب ِ… رشا مشتة
+                    من قلبي لقلبك ِ… رشا مشتة
                 </p>
                 <Image
                     src="/img/hearth.png"

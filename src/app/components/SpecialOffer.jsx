@@ -3,14 +3,16 @@ import React from "react";
 export default function SpecialOffer() {
   return (
     <section dir="rtl" className="bg-[#5C3A21] p-6 text-[#FAE2B3] flex flex-col w-full items-center gap-10 font-kufam ">
-      <button 
+      <a href="https://wa.me/213558318841"
+  target="_blank"
+  rel="noopener noreferrer"
         className="flex items-center gap-2 bg-[#B24B42] rounded-full py-2 px-6 text-white font-semibold text-md hover:bg-[#a34137] transition"
         aria-label="سجل الآن من هنا بسعر خاص جدا"
       >
         
         سجلي الآن من هنا بسعر خاص جدا
         <span className="text-xl">&lt;</span> 
-      </button>
+      </a>
 
       <p className="text-center text-lg leading-relaxed font-semibold font-GESS">
         احصلي على تحليل طاقي شخصي لحالتك مجاناً عند تسجيلك الآن <br /> فقط مُذا الأسبوع !
