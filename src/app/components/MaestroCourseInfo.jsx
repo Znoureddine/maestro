@@ -10,7 +10,7 @@ const MaestroCourseInfo = () => {
         MAESTRO
       </h3>
       <p className="max-w-3xl mx-auto text-lg mb-8 leading-relaxed">
-        دورة أونلاين متكاملة وعميقة ج ًدا، تجمع بين الوعي الحديث،
+        دورة أونلاين متكاملة وعميقة جدا، تجمع بين الوعي الحديث،
         التشافي الطاقي، وتقنيات التحرير العملي خطوة بخطوة
       </p>
       <p className="text-2xl font-extrabold mb-12">

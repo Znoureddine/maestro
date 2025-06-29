@@ -37,7 +37,7 @@ export default function RshaMchta() {
                         إلى نفس ِك أو ًلا
                     </p>
                     <p className="font-bold">
-                        واليوم أنا هنا لأرافق ِ Ҏخطوة
+                        واليوم أنا هنا لأرافقك خطوة
                         بخطوة في هذا الرجوع المبارك
                     </p>
                 </div>

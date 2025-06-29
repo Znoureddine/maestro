@@ -8,7 +8,7 @@ export default function SpecialOffer() {
         aria-label="سجل الآن من هنا بسعر خاص جدا"
       >
         
-        سجل الآن من هنا بسعر خاص جدا
+        سجلي الآن من هنا بسعر خاص جدا
         <span className="text-xl">&lt;</span> 
       </button>
 
@@ -16,7 +16,7 @@ export default function SpecialOffer() {
         احصلي على تحليل طاقي شخصي لحالتك مجاناً عند تسجيلك الآن <br /> فقط مُذا الأسبوع !
       </p>
 
-      <div className="flex gap-6">
+      <div className="flex gap-4">
         <div className="rounded-full bg-[#FAE2B3] text-[#5C3A21] font-bold text-lg px-8 py-2 flex justify-center items-center min-w-[100px] relative ">
           15000 دج
           <span className="absolute inset-0 flex justify-center items-center">

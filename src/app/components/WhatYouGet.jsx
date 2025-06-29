@@ -21,7 +21,7 @@ const MaestroCourseInfo = () => {
         <div className="bg-[#EDDEC9] shadow-[-4px_4px_0_0_#D2AB76] rounded-lg p-6 flex flex-col items-center md:w-[30%] text-center  w-full justify-between min-h-[200px]">
           <Image src="/icons/icon8.png" alt="icon" width={70} height={70} className="block" />
           <p className="text-[#4B3220] text-lg leading-relaxed">
-            تتمارين صوتية
+            تمارين صوتية
             وكتابية للتحرير
           </p>
         </div>
@@ -29,7 +29,7 @@ const MaestroCourseInfo = () => {
         <div className="bg-[#EDDEC9] shadow-[-4px_4px_0_0_#D2AB76] rounded-lg p-4 flex flex-col items-center md:w-[30%] text-center  w-full justify-between min-h-[200px]">
           <Image src="/icons/icon9.png" alt="icon" width={70} height={70} className="block" />
           <p className="text-[#4B3220] text-lg leading-relaxed">
-            تخطة عملية لرسم
+            خطة عملية لرسم
             حدودك العاطفية بدون
             تأنيب ضمير
           </p>
@@ -37,14 +37,14 @@ const MaestroCourseInfo = () => {
         <div className="bg-[#EDDEC9] shadow-[-4px_4px_0_0_#D2AB76] rounded-lg p-7 flex flex-col items-center md:w-[30%] text-center  w-full justify-between min-h-[200px]">
           <Image src="/icons/icon10.png" alt="icon" width={70} height={70} className="block" />
           <p className="text-[#4B3220] text-lg leading-relaxed">
-            تدعم ووعي جديد
+            دعم ووعي جديد
             خطوة بخطوة
           </p>
         </div>
         <div className="bg-[#EDDEC9] shadow-[-4px_4px_0_0_#D2AB76] rounded-lg p-5 flex flex-col items-center md:w-[30%] text-center  w-full justify-between min-h-[200px]">
           <Image src="/icons/icon11.png" alt="icon" width={70} height={70} className="block" />
           <p className="text-[#4B3220] text-lg leading-relaxed">
-            تأدوات يومية تحافظين
+            أدوات يومية تحافظين
             بها على التوازن
           </p>
         </div>

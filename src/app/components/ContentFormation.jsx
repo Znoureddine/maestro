@@ -4,7 +4,7 @@ const MaestroCourseInfo = () => {
     return (
         <section className="bg-[#fff8ec] text-[#4B3220] px-4 py-12 w-full text-center text-brown font-kufam" dir="rtl" lang="ar">
             <h2 className="text-3xl font-extrabold mb-5">
-                ما هي »دورة العلاقة التي تستحقينها ؟
+                محاور دورة »العلاقة التي تستحقينها«
             </h2>
             <h3 className="text-xl font-semibold text-[#C4A477] mb-14 uppercase tracking-wider">
                 MAESTRO
