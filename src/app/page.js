@@ -13,18 +13,26 @@ import TestimonialComponent from "./components/TestimonialComponent";
 export default function Home() {
   return (
     <div>
-      <div className="relative w-full h-40 md:h-screen bg-white overflow-hidden">
+      
+      <div className="relative w-full h-screen bg-white overflow-hidden ">
         {/* Image */}
+        <Image
+          src="/img/bg-mobile.png" // Place ton image ici
+          alt="Hero Background"
+          fill
+          className=" object-fill md:hidden"
+          priority
+        />
         <Image
           src="/img/pgt.png" // Place ton image ici
           alt="Hero Background"
           fill
-          className="object-fill  md:object-cover"
+          className=" md:object-cover hidden md:block"
           priority
         />
 
         {/* Overlay légèrement flou */}
-        <div className="absolute inset-0" />
+        <div className="absolute inset-0 hidden md:block" />
 
         {/* Contenu texte */}
         
