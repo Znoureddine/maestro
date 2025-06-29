@@ -19,7 +19,7 @@ export default function Home() {
           src="/img/pgt.png" // Place ton image ici
           alt="Hero Background"
           fill
-          className="object-contain object-top md:object-cover"
+          className="object-cover object-top md:object-cover"
           priority
         />
 
