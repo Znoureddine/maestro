@@ -16,7 +16,7 @@ export default function Home() {
       <div className="relative w-full h-[41vh] md:h-screen bg-white overflow-hidden">
         {/* Image */}
         <Image
-          src="/img/bg.tif" // Place ton image ici
+          src="/img/pgt.png" // Place ton image ici
           alt="Hero Background"
           fill
           className="object-contain object-top md:object-cover"
@@ -60,7 +60,9 @@ export default function Home() {
         </div>
           
       </div>
-      <div className="w-full max-w-4xl mx-auto shadow-xl rounded-xl overflow-hidden">
+      {
+        /*
+        <div className="w-full max-w-4xl mx-auto shadow-xl rounded-xl overflow-hidden">
         <iframe
           width="100%"
           height="420"
@@ -72,6 +74,8 @@ export default function Home() {
           className="rounded-xl"
         ></iframe>
       </div>
+        */
+      }
       <section dir="rtl" className="bg-[#fff8ec] text-center py-12 px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-brown mb-6 font-kufam">احصلي على:</h2>
 
