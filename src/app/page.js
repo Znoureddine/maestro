@@ -13,7 +13,7 @@ import TestimonialComponent from "./components/TestimonialComponent";
 export default function Home() {
   return (
     <div>
-      <div className="relative w-full h-[41vh] md:h-screen bg-white overflow-hidden">
+      <div className="relative w-full h-screen bg-white overflow-hidden">
         {/* Image */}
         <Image
           src="/img/pgt.png" // Place ton image ici
