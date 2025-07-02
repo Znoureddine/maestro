@@ -1,6 +1,6 @@
 import "./globals.css";
 import localFont from 'next/font/local';
-
+import { Analytics } from "@vercel/analytics/next";
 
 const GESS = localFont({
   src: [
@@ -40,6 +40,7 @@ export default function RootLayout({ children }) {
         
       >
         {children}
+        <Analytics/>
       </body>
     </html>
   );
